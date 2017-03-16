@@ -21,22 +21,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate,AVAudioPlayerDelegate {
     
     
     //OpenWhisk Credentials
-    var whiskAccessKey:String = ""
-    var whiskAccessToken:String = ""
-    var whiskActionName:String = "GetLatestNewsAPI" // Your action name
-    var whiskNameSpace:String = "IMF_Push_kgspace"  // OpenWhisk work space
+    var whiskAccessKey:String = "OpenWhisk Key"
+    var whiskAccessToken:String = "OpenWhisk token"
+    var whiskActionName:String = "Swift action name"
+    var whiskNameSpace:String = "space name"
 
      //Push Service Credentials
-    var pushAppGUID:String = ""
-    var pushAppClientSecret:String = ""
-    var pushAppRegion:String = ""
+    var pushAppGUID:String = "Your push appGUID"
+    var pushAppClientSecret:String = "Your push appSecret"
+    var pushAppRegion:String = "Your push appregion"
     
     //Watson Text-to-speech credentials
-    var watsonTextToSpeachUsername:String = ""
-    var watsonTextToSpeachPassword:String = ""
+    var watsonTextToSpeachUsername:String = "Watson Text to Speech username"
+    var watsonTextToSpeachPassword:String = "Watson Text to Speech password"
     
     //News API key - From https://newsapi.org/
-    var newsAPIKey:String = ""
+    var newsAPIKey:String = "News Api key"
 
     
     weak var gameTimer: Timer?
@@ -210,7 +210,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,AVAudioPlayerDelegate {
             doIt = true
             
             
-         // if(showTimer(date: Date()) && doIt){
+          if(showTimer(date: Date()) && doIt){
             //Timer.scheduledTimer(withTimeInterval: 10, repeats: false){_ in
             let payLoadAlert = (((userInfo as NSDictionary).value(forKey: "aps") as! NSDictionary).value(forKey: "alert") as! NSDictionary)
             
@@ -273,7 +273,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,AVAudioPlayerDelegate {
                     })
                 }
                 catch {}
-         // }
+          }
         }
     }
     

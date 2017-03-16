@@ -344,8 +344,7 @@
 				TargetAttributes = {
 					1409C1391E696514007F6A09 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = TN6YQNGLXP;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -574,7 +573,7 @@
 				CODE_SIGN_ENTITLEMENTS = NotificationInterceptor/NotificationInterceptor.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = TN6YQNGLXP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NotificationInterceptor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IndiaBMS.Push.NotificationInterceptor;
@@ -592,7 +591,7 @@
 				CODE_SIGN_ENTITLEMENTS = NotificationInterceptor/NotificationInterceptor.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = TN6YQNGLXP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NotificationInterceptor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IndiaBMS.Push.NotificationInterceptor;
