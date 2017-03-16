@@ -25,23 +25,23 @@
 
   1. Open the `Certificates, IDs & profiles` section
 
-    <img src="Assets/cert1.png" width="300" height="330">
+     <img src="Assets/cert1.png" width="300" height="330">
 
   2. Go to the `App IDs` section and create a bundle identifier and enable push notifications
 
-    <img src="Assets/cert2.png" width="300" height="150">
+     <img src="Assets/cert2.png" width="300" height="150">
 
   3. Go to the `Edit` section and add `Development SSL Certificate` under `Push notification` section
 
-    <img src="Assets/cert3.png" width="300" height="150"> <img src="Assets/cert4.png" width="300" height="150">
+     <img src="Assets/cert3.png" width="300" height="150"> <img src="Assets/cert4.png" width="300" height="150">
 
   4. Download the certificate and double click on it, certificate will get added to the `Keyachain`
 
-    <img src="Assets/cert5.png" width="300" height="150">
+     <img src="Assets/cert5.png" width="300" height="150">
 
   5. Right click on the certificate and select export option. Save it as a `p12` with valid password.
 
-    <img src="Assets/cert6.png" width="300" height="150">
+     <img src="Assets/cert6.png" width="300" height="150">
 
 
 ## Set Up iOS app
