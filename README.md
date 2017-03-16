@@ -5,6 +5,8 @@
   NewsWatch will will send give you latest news based on your preference. Once you subscribe for your interested topic , you will rceive a push notification every hour with the latest news. If you don't want to miss out the latest news you can enable the `Play Push Notification` option in the app to readout the news.
 
 
+   <img src="Assets/arch.png" width="700" height="400">
+
 ## Requirements
   * iOS 10.+
   * Xcode 8.+
